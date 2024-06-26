@@ -1,0 +1,35 @@
+li:first-child{
+    color: blue
+}
+
+li:nth-child(2){
+    color:aqua
+}
+
+li:last-child{
+    color:antiquewhite
+}
+
+li:nth-child(3n){
+    color:blue
+}
+
+li:nth-child(2n){
+    color:blueviolet
+}
+
+article p:first-child{
+    color:blue
+}
+
+article p:last-child{
+    color:aqua
+}
+
+article p:nth-child(2){
+    color:blueviolet
+}
+
+article p:nth-child(2n){
+    color:cadetblue
+}
